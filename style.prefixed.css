@@ -17,6 +17,8 @@ body {
     background-size: cover;
     height: 30vh;
     width: 100%;  
+    display: -webkit-box;  
+    display: -ms-flexbox;  
     display: flex;
 }
 h1, h2 {
