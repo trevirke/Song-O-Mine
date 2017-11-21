@@ -1,0 +1,35 @@
+/*
+Errno::EEXIST: File exists @ dir_s_mkdir - .sass-cache
+
+Backtrace:
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:230:in `mkdir'
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:230:in `fu_mkdir'
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:208:in `block (2 levels) in mkdir_p'
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:206:in `reverse_each'
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:206:in `block in mkdir_p'
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:191:in `each'
+C:/Ruby24-x64/lib/ruby/2.4.0/fileutils.rb:191:in `mkdir_p'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/cache_stores/filesystem.rb:38:in `_store'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/cache_stores/base.rb:51:in `store'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/cache_stores/chain.rb:19:in `block in store'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/cache_stores/chain.rb:19:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/cache_stores/chain.rb:19:in `store'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:425:in `_to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Ruby24-x64/bin/sass:23:in `load'
+C:/Ruby24-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::EEXIST: File exists @ dir_s_mkdir - .sass-cache"; }
